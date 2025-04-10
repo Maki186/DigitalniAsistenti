@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/Eshop_digitalni_asistenti/',
+  base: '/DigitalniAsistenti/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
