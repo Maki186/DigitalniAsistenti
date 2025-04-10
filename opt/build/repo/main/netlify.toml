@@ -2,7 +2,7 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  base = "main"
+  base = "mainDigitalniAsistenti/opt/build/repo/main"
 
 [build.environment]
   NODE_VERSION = "16"
