@@ -10,8 +10,15 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  build: {
+        outDir: 'dist',
+        rollupOptions: {
+          // Rollup options
+        }
+      },
   server: {
     port: 3000
   },
   assetsInclude: ['**/*.PNG']
 }) 
+
